@@ -8,7 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:Name="play3Button" Content="Play 3x3" HorizontalAlignment="Left" Margin="135,235,0,0" VerticalAlignment="Top" Width="73"/>
+        <Button x:Name="play3Button" Content="Play 3x3" HorizontalAlignment="Left" Margin="135,235,0,0" VerticalAlignment="Top" Width="73" Click="play3Button_Click"/>
         <Button x:Name="play4button" Content="Play 4x4" HorizontalAlignment="Left" Margin="135,198,0,0" VerticalAlignment="Top" />
         <Button x:Name="About" Content="About" HorizontalAlignment="Left"   Margin="135,346,0,0" VerticalAlignment="Top" Width="73" Click="About_Click"/>
         <TextBox x:Name="titleTextBox" HorizontalAlignment="Left" Margin="135,93,0,0" TextWrapping="Wrap" Text="Tic Tac Toe" VerticalAlignment="Top" IsReadOnly="True"/>

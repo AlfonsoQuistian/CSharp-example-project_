@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="App2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:ConnectionId='1' x:Name="play3Button" Content="Play 3x3" HorizontalAlignment="Left" Margin="135,235,0,0" VerticalAlignment="Top" Width="73"                          />
+        <Button x:ConnectionId='2' x:Name="play4button" Content="Play 4x4" HorizontalAlignment="Left" Margin="135,198,0,0" VerticalAlignment="Top" />
+        <Button x:ConnectionId='3' x:Name="About" Content="About" HorizontalAlignment="Left"   Margin="135,346,0,0" VerticalAlignment="Top" Width="73"                    />
+        <TextBox x:ConnectionId='4' x:Name="titleTextBox" HorizontalAlignment="Left" Margin="135,93,0,0" TextWrapping="Wrap" Text="Tic Tac Toe" VerticalAlignment="Top" IsReadOnly="True"/>
+        <Button x:ConnectionId='5' x:Name="playLouie" Content="Play Louie's game" HorizontalAlignment="Center" Margin="88,272,134,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
+

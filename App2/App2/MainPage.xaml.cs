@@ -31,5 +31,10 @@ namespace App2
         {
             this.Frame.Navigate(typeof(AboutPage1),null);
         }
+
+        private void play3Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(GameBoard), null);
+        }
     }
 }

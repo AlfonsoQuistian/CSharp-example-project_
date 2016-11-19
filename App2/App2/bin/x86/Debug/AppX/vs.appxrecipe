@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>92a945f1-a482-43cb-ad25-e4976f9a27f8</PackageIdentityName>
     <PackageIdentityPublisher>CN=Alfonso</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Alfonso\documents\visual studio 2015\Projects\App2\App2\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Alfonso\Documents\GitHub\CSharp-example-project\App2\App2\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Alfonso\documents\visual studio 2015\Projects\App2\App2\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Alfonso\Documents\GitHub\CSharp-example-project\App2\App2\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-10-23T22:26:44.276</Modified>
+      <Modified>2016-11-07T03:03:19.871</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Alfonso\documents\visual studio 2015\Projects\App2\App2\bin\x86\Debug\App2.exe">
+    <AppxPackagedFile Include="C:\Users\Alfonso\Documents\GitHub\CSharp-example-project\App2\App2\bin\x86\Debug\App2.exe">
       <PackagePath>entrypoint\App2.exe</PackagePath>
-      <Modified>2016-10-23T22:26:42.816</Modified>
+      <Modified>2016-11-07T03:03:17.665</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alfonso\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -448,59 +448,59 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-23T03:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alfonso\documents\visual studio 2015\Projects\App2\App2\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Alfonso\Documents\GitHub\CSharp-example-project\App2\App2\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2016-10-09T23:44:34.576</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alfonso\documents\visual studio 2015\Projects\App2\App2\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alfonso\Documents\GitHub\CSharp-example-project\App2\App2\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-20T21:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alfonso\documents\visual studio 2015\Projects\App2\App2\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alfonso\Documents\GitHub\CSharp-example-project\App2\App2\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T21:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alfonso\documents\visual studio 2015\Projects\App2\App2\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alfonso\Documents\GitHub\CSharp-example-project\App2\App2\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T21:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alfonso\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alfonso\Documents\GitHub\CSharp-example-project\App2\App2\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T21:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alfonso\documents\visual studio 2015\Projects\App2\App2\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Alfonso\Documents\GitHub\CSharp-example-project\App2\App2\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T21:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alfonso\documents\visual studio 2015\Projects\App2\App2\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Alfonso\Documents\GitHub\CSharp-example-project\App2\App2\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T21:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alfonso\documents\visual studio 2015\Projects\App2\App2\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Alfonso\Documents\GitHub\CSharp-example-project\App2\App2\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T21:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alfonso\documents\visual studio 2015\Projects\App2\App2\bin\x86\Debug\App2.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Alfonso\Documents\GitHub\CSharp-example-project\App2\App2\bin\x86\Debug\App2.xr.xml">
       <PackagePath>App2.xr.xml</PackagePath>
-      <Modified>2016-10-23T22:25:55.116</Modified>
+      <Modified>2016-11-07T02:56:42.583</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2016-08-06T12:57:59.233</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alfonso\documents\visual studio 2015\Projects\App2\App2\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Alfonso\Documents\GitHub\CSharp-example-project\App2\App2\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-10-23T22:26:43.800</Modified>
+      <Modified>2016-11-07T03:03:19.318</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alfonso\documents\visual studio 2015\Projects\App2\App2\bin\x86\Debug\Core\App2.exe">
+    <AppxPackagedFile Include="C:\Users\Alfonso\Documents\GitHub\CSharp-example-project\App2\App2\bin\x86\Debug\Core\App2.exe">
       <PackagePath>App2.exe</PackagePath>
-      <Modified>2016-10-23T22:26:44.270</Modified>
+      <Modified>2016-11-07T03:03:19.851</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

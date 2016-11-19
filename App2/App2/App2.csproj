@@ -99,6 +99,9 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="gameBoard.cs" />
+    <Compile Include="GameBoard.xaml.cs">
+      <DependentUpon>GameBoard.xaml</DependentUpon>
+    </Compile>
     <Compile Include="GamePage1.xaml.cs">
       <DependentUpon>GamePage1.xaml</DependentUpon>
     </Compile>
@@ -130,6 +133,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="AboutPage1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GameBoard.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

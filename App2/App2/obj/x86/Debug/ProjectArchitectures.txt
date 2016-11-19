@@ -1,1 +1,1 @@
-C:\Users\Alfonso\documents\visual studio 2015\Projects\App2\App2\App2.csproj;x86
+C:\Users\Alfonso\Documents\GitHub\CSharp-example-project\App2\App2\App2.csproj;x86
