@@ -372,6 +372,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alfonso\Documents\GitHub\CSharp-example-project\App2\App2\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alfonso\Documents\GitHub\CSharp-example-project\App2\App2\bin\x86\Debug\Core\App2.exe">
       <PackagePath>App2.exe</PackagePath>

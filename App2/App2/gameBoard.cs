@@ -28,20 +28,18 @@ namespace App2
         public void initBoard(gameBoard board)
         {
             for (int i = 1; i < board.boardSize; i++)
-            {
-                for (int j = 1; j < board.boardSize; j++)
                 {
-                    board.gameBoardObj[i, j] = "*";
+                    for (int j = 1; j < board.boardSize; j++)
+                    {
+                        board.gameBoardObj[i, j] = "*";
+                    }
                 }
 
-            }
-
-            for(int i = 0; i< board.boardSize; i++)
-            {
-                board.gameBoardObj[0,i] = "0";
-                board.gameBoardObj[i, 0] = "0";
-            }
-
+                for (int i = 0; i < board.boardSize; i++)
+                {
+                    board.gameBoardObj[0, i] = "0";
+                    board.gameBoardObj[i, 0] = "0";
+                }
         }
 
         public int getSize()
@@ -84,6 +82,16 @@ namespace App2
         public void placeMove(int row, int col, gameBoard board, String playerToken)
         {
             board.gameBoardObj[row, col] = playerToken; 
+        }
+
+        public bool isSpotEmpty(int row, int col, gameBoard board)
+        {
+            bool result = false;
+
+            if (board.gameBoardObj[row, col] == "*")
+                result = true;
+
+            return result;
         }
 
     }

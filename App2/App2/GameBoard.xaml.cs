@@ -26,10 +26,22 @@ namespace App2
         {
             this.InitializeComponent();
             confirmButton.IsEnabled = false;
+            button1.Content = "";
+            button2.Content = "";
+            button3.Content = "";
+            button4.Content = "";
+            button5.Content = "";
+            button6.Content = "";
+            button7.Content = "";
+            button8.Content = "";
+            button9.Content = "";
 
         }
+
+        
         gameBoard board = new gameBoard(4);
-        int selectedBox = -1;
+        int moveCount = 0;
+
 
         private void playButton_Click(object sender, RoutedEventArgs e)
         {
@@ -42,7 +54,10 @@ namespace App2
 
         private void confirmButton_Click(object sender, RoutedEventArgs e)
         {
-            playGame(1, board, false);//continueGame = true;
+
+            if (board.isSpotEmpty(comboBoxRow.SelectedIndex + 1, comboBoxColumn.SelectedIndex + 1, board))
+                playGame(1, board, false);//continueGame = true;
+            else messageBox.Text = "Choice is already taken!";
         }
 
         string playerToken = "*";
@@ -51,22 +66,22 @@ namespace App2
         {
             bool gameOver = false;
             int result = 0;
-            board.initBoard(board);
+            if (moveCount == 0)
+            {
+                board.initBoard(board, moveCount);
+            }
             //while(!gameOver)
             {
 
 
                 playerTakeTurn(1);
-
-                checkForCat();
-
                 if (players != 1)
                     playerTakeTurn(2);
                 else pcTakeTurn();
 
                 int check = checkGameStatus(board);
                 result = check;
-
+                moveCount++;
 
             }
 
@@ -78,6 +93,8 @@ namespace App2
             if (player == 1)
                 playerToken = "X";
             else playerToken = "O";
+            
+
 
         }
 
@@ -93,8 +110,7 @@ namespace App2
             {
                 if ((board.getGameBoard())[0, i] == "3")
                     result = 1;
-
-
+                
             }
             return result;
         }
@@ -106,16 +122,69 @@ namespace App2
             board.checkRow(board, row, col);
         }
 
-
-        public void checkForCat()
+        private void comboBoxColumn_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }
 
-        private void textBox0_TextChanged(object sender, TextChangedEventArgs e)
+        private void button1_Click(object sender, RoutedEventArgs e)
         {
-            selectedBox = 0;
-            textBox.Text = selectedBox.ToString();
+            comboBoxColumn.SelectedIndex = 0;
+            comboBoxRow.SelectedIndex = 0;
+        }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            comboBoxColumn.SelectedIndex = 1;
+            comboBoxRow.SelectedIndex = 0;
+        }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            comboBoxColumn.SelectedIndex = 2;
+            comboBoxRow.SelectedIndex = 0;
+        }
+
+        private void clearButton1_Click(object sender, RoutedEventArgs e)
+        {
+            comboBoxColumn.SelectedIndex = -1;
+            comboBoxRow.SelectedIndex = -1;
+        }
+
+        private void button4_Click(object sender, RoutedEventArgs e)
+        {
+            comboBoxColumn.SelectedIndex = 0;
+            comboBoxRow.SelectedIndex = 1;
+        }
+
+        private void button5_Click(object sender, RoutedEventArgs e)
+        {
+            comboBoxColumn.SelectedIndex = 1;
+            comboBoxRow.SelectedIndex = 1;
+        }
+
+        private void button6_Click(object sender, RoutedEventArgs e)
+        {
+            comboBoxColumn.SelectedIndex = 2;
+            comboBoxRow.SelectedIndex = 1;
+        }
+
+        private void button7_Click(object sender, RoutedEventArgs e)
+        {
+            comboBoxColumn.SelectedIndex = 0;
+            comboBoxRow.SelectedIndex = 2;
+        }
+
+        private void button8_Click(object sender, RoutedEventArgs e)
+        {
+            comboBoxColumn.SelectedIndex = 1;
+            comboBoxRow.SelectedIndex = 2;
+        }
+
+        private void button9_Click(object sender, RoutedEventArgs e)
+        {
+            comboBoxColumn.SelectedIndex = 2;
+            comboBoxRow.SelectedIndex = 2;
         }
     }
 }
