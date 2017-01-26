@@ -88,7 +88,7 @@ namespace App2
         {
             bool result = false;
 
-            if (board.gameBoardObj[row, col] == "*")
+            if (board.gameBoardObj[row, col].Equals("*")) ;
                 result = true;
 
             return result;

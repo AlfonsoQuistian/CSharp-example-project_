@@ -58,9 +58,16 @@ namespace App2
             if (board.isSpotEmpty(comboBoxRow.SelectedIndex + 1, comboBoxColumn.SelectedIndex + 1, board))
                 playGame(1, board, false);//continueGame = true;
             else messageBox.Text = "Choice is already taken!";
+
+            readBoard(boar);
         }
 
         string playerToken = "*";
+
+        private void readBoard(gameBoard board)
+        {
+            board.getGameBoard()
+        }
 
         public int playGame(int players, gameBoard board, bool Louie)
         {
@@ -68,15 +75,15 @@ namespace App2
             int result = 0;
             if (moveCount == 0)
             {
-                board.initBoard(board, moveCount);
+                board.initBoard(board);
             }
             //while(!gameOver)
             {
 
 
-                playerTakeTurn(1);
+                playerTakeTurn(1, board);
                 if (players != 1)
-                    playerTakeTurn(2);
+                    playerTakeTurn(2, board);
                 else pcTakeTurn();
 
                 int check = checkGameStatus(board);
@@ -88,13 +95,13 @@ namespace App2
             return result;
         }
 
-        public void playerTakeTurn(int player)
+        public void playerTakeTurn(int player, gameBoard board)
         {
             if (player == 1)
                 playerToken = "X";
             else playerToken = "O";
-            
 
+            board.placeMove(comboBoxRow.SelectedIndex + 1, comboBoxColumn.SelectedIndex + 1, board, playerToken);
 
         }
 
