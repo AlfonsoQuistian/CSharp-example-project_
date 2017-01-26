@@ -7,4 +7,5 @@ In addition to the added portability of running on the Windows Universal Platfor
 It's a bit ambitious and might be a little messy as I prototype/test several ideas on
 my way to the road to call it "complete."
 
+The original course project is added as "quistian2.cpp", NOTE: for the course we wrote C++ for an older "Borland" compiler, which may or not be compatible with more modern compilers.
 Worked on during my free time.
